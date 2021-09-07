@@ -1,12 +1,12 @@
 import { css } from "styled-components";
 
 export const color = {
-  navyBlue: '#166FE5',
+  navyBlue: '#0570E7',
   vioBlue: '#3E53A5',
   spaceBlue: '#202D58',
   green: '#31A24C',
   orange : '#FB5012',
-  cherry: '#F3425F',
+  cherry: '#F02849',
   black: '#1C1C1C',
   white: '#FFFFFF',
 }
@@ -47,7 +47,7 @@ export const appScrollbar = ({theme}) => css`
 
 
   &:hover {
-    scrollbar-color: ${theme.color.scrollbar.handle} transparent; 
+    scrollbar-color: ${theme.color.divider} transparent; 
      /* Track */
     ::-webkit-scrollbar-track {
       background: transparent; 
@@ -56,7 +56,7 @@ export const appScrollbar = ({theme}) => css`
     /* Handle */
     ::-webkit-scrollbar-thumb {
       border-radius: 3px;
-      background: ${theme.color.scrollbar.handle}; 
+      background: ${theme.color.divider}; 
     }
   }
 `
