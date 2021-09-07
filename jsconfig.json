@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "jsx": "preserve",
-    "checkJs": true,
+    "jsx": "react",
+    "checkJs": false,
     "baseUrl": "./src",
     "typeRoots" : ["./node_modules","./node_modules/@types"],
   },
